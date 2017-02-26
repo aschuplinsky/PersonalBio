@@ -1,7 +1,45 @@
 body{
-  background-color: lightpink;
+  background-color: #FFE4E1;
 }
 a:hover{
-  background: black;
-  color: pink;
+  background: #8B008B;
+  color: #FFFFFF;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+}
+h2{
+  text-decoration: underline;
+  color:#0000FF;
+  bottom: 0;
+  text-align: right;
+  font-size: 15px;
+}
+b:hover{
+  background: #FFFFFF;
+  color: #FF1493;
+  font-weight: bold;
+  border: 1px solid #FF1493;
+  outline-style: dotted;
+  outline-color: #FFFFFF;
+}
+div>p{
+  font-weight: bold;
+}
+b{
+  background-color: #8B008B;
+  color: #FFFFFF;
+}
+div{
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+span.serif {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+span.sansserif{
+  font-family:"Comic Sans MS", cursive, sans-serif;
 }
